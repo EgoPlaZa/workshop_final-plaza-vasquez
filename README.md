@@ -25,8 +25,8 @@ Cómo se puede observar por el gráfico anterior se llegó hasta la última part
 
 ### 🔖 Conclusiones
 - En la creación del diagrama de bloques se agregan los modulos necesarios y estos tienen sus terminales bien marcados, donde se puede hacer las conexiones necesarias internamente, las otras se hacen con conexiones externas teniendo en cuenta que las que no fueron conectadas, vivado entiende que se conectaran a tierra "0". En las conexiones se diferencian los pines a los buses con una linea mas gruesa para los buses.
--
--
+-Es importancia descargar las versiones que se indican en la guia de instalación, se obtuvieron problemas al momento de generar el bitstream puesto que se usó una versión posterior a la 2019.2.
+-El tener un buen procesador facilita y acelera el uso de las herramientas como ivado. Se tuvo que dejar durante varias horas encendido el computador para la generación del bitstream por los bajos recursos que presenta el procesador. 
 
 ### 🔖 Referencias
 - 
