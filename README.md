@@ -6,7 +6,9 @@ Desarrollo de los laboratorios RVfpga de IMAGINATION. Se hará uso de los conoci
 
 En este primer laboratorio se nos enseña la construcción de un sistema RISC-V en un chip (SoC) a partir de bloques de construcción.
 
-Se empieza con la instalación y posterior uso de Verilog, crearemos nuestro proyecto con la ayuda de la guía que se nos envía en el documento RVfpgaSoC 
+Se empieza con la instalación y posterior uso de Verilog, crearemos nuestro proyecto con la ayuda de la guía que se nos envía en el documento RVfpgaSoC.
+
+En la creacion por bloques se agregan los modulos necesarios para el sistema y luego se hacen las conexiones entre estos, bits o buses, ya sean internas entre modulos o externas.
 
 
 
@@ -32,6 +34,6 @@ Diego Julian Plaza Quintero - Est. Ingenieria electrónica - 2172310
 <br/>
 egoplaza20@gmail.com
 <br/>
-Carlos Vásquez - Est. Ingenieria electrónica - 
+Carlos Alberto Vásquez Serrano - Est. Ingenieria electrónica - 2170449
 <br/>
-@gmail.com
+carlosalvase@gmail.com
