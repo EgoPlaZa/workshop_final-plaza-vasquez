@@ -8,15 +8,16 @@ En este primer laboratorio se nos enseña la construcción de un sistema RISC-V 
 
 Se empieza con la instalación y posterior uso de Verilog, crearemos nuestro proyecto con la ayuda de la guía que se nos envía en el documento RVfpgaSoC.
 
-En la creacion por bloques se agregan los modulos necesarios para el sistema y luego se hacen las conexiones entre estos, bits o buses, ya sean internas entre modulos o externas.
+En la creacion por bloques se agregan los modulos necesarios para el sistema y luego se hacen las conexiones entre estos, bits o buses, ya sean internas entre modulos o externas, el diagrama se presenta a continuación:
 
-
-![Alt text](https://i.imgur.com/p8BD2YP.png)
+![Alt text](https://i.imgur.com/y7RRwSP.png)
 
 
 ### 🎯 Resultados
 
 ![Alt text](https://i.imgur.com/mNLRNXc.png)
+
+Cómo se puede observar por el gráfico anterior se llegó hasta la última parte como se nos indicó en la guía, generando el bitstream de manera correcta.
 
 ## 💻 Lab2
 
