@@ -11,8 +11,12 @@ Se empieza con la instalación y posterior uso de Verilog, crearemos nuestro pro
 En la creacion por bloques se agregan los modulos necesarios para el sistema y luego se hacen las conexiones entre estos, bits o buses, ya sean internas entre modulos o externas.
 
 
-
 ![Alt text](https://i.imgur.com/p8BD2YP.png)
+
+
+### 🎯 Resultados
+
+![Alt text](https://i.imgur.com/mNLRNXc.png)
 
 ## 💻 Lab2
 
