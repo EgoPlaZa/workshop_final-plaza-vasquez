@@ -8,7 +8,7 @@ En este primer laboratorio se nos enseña la construcción de un sistema RISC-V 
 
 Se empieza con la instalación y posterior uso de Verilog, crearemos nuestro proyecto con la ayuda de la guía que se nos envía en el documento RVfpgaSoC.
 
-En la creacion por bloques se agregan los modulos necesarios para el sistema y luego se hacen las conexiones entre estos, bits o buses, ya sean internas entre modulos o externas, el diagrama se presenta a continuación:
+En la creacion por bloques se agregan los modulos necesarios para el sistema y luego se hacen las conexiones entre estos, pines o buses, ya sean internas entre modulos o externas, el diagrama se presenta a continuación:
 
 ![Alt text](https://i.imgur.com/o1L9O9A.jpg)
 
@@ -24,12 +24,12 @@ Cómo se puede observar por el gráfico anterior se llegó hasta la última part
 
 
 ### 🔖 Conclusiones
--
+- En la creación del diagrama de bloques se agregan los modulos necesarios y estos tienen sus terminales bien marcados, donde se puede hacer las conexiones necesarias internamente, las otras se hacen con conexiones externas teniendo en cuenta que las que no fueron conectadas, vivado entiende que se conectaran a tierra "0". En las conexiones se diferencian los pines a los buses con una linea mas gruesa para los buses.
 -
 -
 
 ### 🔖 Referencias
--
+- 
 -
 -
 
