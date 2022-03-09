@@ -52,6 +52,10 @@ Se obtuvo de manera correcta las señales y los ciclos como lo mostraba la guía
 ### 🔖 Errores
 - Es importante descargar las versiones que se indican en la guia de instalación, se obtuvieron problemas al momento de generar el bitstream puesto que se usó una versión posterior a la 2019.2.
 - El tener un buen procesador facilita y acelera el uso de las herramientas como vivado. Se tuvo que dejar durante varias horas encendido el computador para la generación del bitstream por los bajos recursos que presenta el procesador. 
+- Al intentar hacer el bitstream se encontro un error donde no encontraba los modulos que componian el diseño. Se hizo la busqueda y los modulos estaban donde se especificaba, pero el projecto no los reconocia, para solucionarlo se tuvo que comenzar a hacer de nuevo todo el proyecto.
+
+![Alt text](image.png)
+
 - Durante el desarrollo del segundo laboratorio encontramos un error al momento de hacer la generación de bits para el RVfpgaSim, el cual se muestra en la siguiente imagen.
 
 ![Alt text](https://i.imgur.com/95wToyx.png)
