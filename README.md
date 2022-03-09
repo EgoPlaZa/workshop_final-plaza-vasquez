@@ -1,6 +1,6 @@
 # 💻 RVfpga SoC THE IMAGINATION UNIVERSITY PROGRAMME
 
-Se desarrollo los dos primeros laboratorios RVfpga de IMAGINATION. Se hizo uso de los conocimientos adquiridos a lo largo del semestre en la materia arquitectura para computadores de la UIS. Se hizo uso de las herramientas verilog, verilator, gtkwave entre otros. 
+Se realizaron los dos primeros laboratorios RVfpga de IMAGINATION. Se hizo uso de los conocimientos adquiridos a lo largo del semestre en la materia arquitectura para computadores de la UIS, con la ayuda de las herramientas verilog, verilator, gtkwave entre otros. 
 
 ## 💻 Lab1
 
@@ -36,10 +36,16 @@ En este segundo laboratorio se nos indicará como ejecutar programas eescritos e
 
 ### 🎯 Resultados
 
-Obtención de las señales en GTKWave:
+Se obtuvieron las siguientes señales en GTKWave, las cuales se dividirán en 3 instrucciones aritmético-lógicas de las primeras y segundas iteraciones del bucle.
 
-![Alt text](https://i.imgur.com/frx1Q0x.png)
+- Primera: 
+![Alt text](https://i.imgur.com/Ua98Wy5.png)
+- Segunda:
+![Alt text](https://i.imgur.com/V4yUK1t.png) 
+- Tercera:
+![Alt text](https://i.imgur.com/s18a98r.png)
 
+Se obtuvo de manera correcta las señales y los ciclos como lo mostraba la guía.
 
 ### 🔖 Errores
 - Es importante descargar las versiones que se indican en la guia de instalación, se obtuvieron problemas al momento de generar el bitstream puesto que se usó una versión posterior a la 2019.2.
