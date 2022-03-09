@@ -4,11 +4,17 @@ Desarrollo de los laboratorios RVfpga de IMAGINATION. Se hará uso de los conoci
 
 ## 💻 Lab1
 
-En este primer laboratorio se nos enseña la construcción de un sistema RISC-V en un chip (SoC) a partir de bloques de construcción.
+En este primer laboratorio se nos enseña la construcción del subconjunto SweRVolfX de RISC-V en un chip (SoC) a partir de bloques de construcción.
 
-Se empieza con la instalación y posterior uso de Verilog, crearemos nuestro proyecto con la ayuda de la guía que se nos envía en el documento RVfpgaSoC.
+1. Se empieza con la instalación del programa Verilog, en el cual se desarrollara el laboratorio.
+2. Se crea el proyecto con la ayuda de la guía en el documento RVfpgaSoC.
+3. Se ingresa a la creacion del diseño de bloques.
+4. Se agregan los modulos necesarios para el diseño.
+5. Se realizan las conexiones internas, entre los modulos del diseño, pin por pin o bus por bus dado el caso.
+6. Se continua con las conexiones externas.
+7. Finalizando el diseño y procediendo a generar el archivo verilog con la descripción de este mismo.
+8. Por ultimo se configura la creación del bitstream para luego generarlo.
 
-En la creacion por bloques se agregan los modulos necesarios para el sistema y luego se hacen las conexiones entre estos, pines o buses, ya sean internas entre modulos o externas, el diagrama se presenta a continuación:
 
 ![Alt text](https://i.imgur.com/o1L9O9A.jpg)
 
