@@ -26,7 +26,7 @@ Cómo se puede observar por el gráfico anterior se llegó hasta la última part
 
 ## 💻 Lab2
 
-En este segundo laboratorio se nos indicará como ejecutar programas eescritos en el lenguaje C o en el lenguaje Assambly en el subconjunto SweRVolfX creado en el primer laboratorio haciendo uso de la herramienta Vivado block. Se realizaron los siguientes pasos:
+En este segundo laboratorio se nos indicará como ejecutar programas escritos en el lenguaje C o en el lenguaje Assambly en el subconjunto SweRVolfX creado en el primer laboratorio haciendo uso de la herramienta Vivado block. Se realizaron los siguientes pasos:
 
 1. Se deben instalar los programas VSCode (en este se hace la instalación de PlatformIO), cygwin (en este se hace la instalación de verilator) y GTKWave.
 2. Se obtiene del primer laboratorio el archivo BD.v en el cual se verifica que cada nombre de los modulos terminen en _0_0.
@@ -60,7 +60,7 @@ Se obtuvo de manera correcta las señales y los ciclos como lo mostraba la guía
 
 ![Alt text](https://i.imgur.com/95wToyx.png)
 
-Este error se pudo arreglar agregando las siguientes ibrerias al código en C++ verilated.cpp, este archivo se encuentra dentro de la carpeta dentro de la carpeta cywin64 en archivos de programa y siguiendo la ruta que se nos muestra junto al error.
+Este error se pudo arreglar agregando las siguientes librerias al código en C++ verilated.cpp, este archivo se encuentra dentro de la carpeta dentro de la carpeta cywin64 en archivos de programa y siguiendo la ruta que se nos muestra junto al error.
 ```
 #include <limits>
 #include <cstddef>
