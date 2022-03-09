@@ -4,7 +4,9 @@ Se realizaron los dos primeros laboratorios RVfpga de IMAGINATION. Se hizo uso d
 
 ## 💻 Lab1
 
-En este primer laboratorio se nos enseña la construcción del subconjunto SweRVolfX de RISC-V en un chip (SoC) a partir de bloques de construcción. Se realizaron los siguientes pasos:
+En este primer laboratorio se nos enseña la construcción del subconjunto SweRVolfX de RISC-V en un chip (SoC) a partir de bloques de construcción. 
+
+Se realizaron los siguientes pasos:
 
 1. Se empieza con la instalación del programa Verilog, en el cual se desarrollara el laboratorio.
 2. Se crea el proyecto con la ayuda de la guía en el documento RVfpgaSoC.
@@ -26,7 +28,9 @@ Cómo se puede observar por el gráfico anterior se llegó hasta la última part
 
 ## 💻 Lab2
 
-En este segundo laboratorio se nos indicará como ejecutar programas escritos en el lenguaje C o en el lenguaje Assambly en el subconjunto SweRVolfX creado en el primer laboratorio haciendo uso de la herramienta Vivado block. Se realizaron los siguientes pasos:
+En este segundo laboratorio se nos indica como ejecutar programas escritos en el lenguaje C o en el lenguaje Assambly en el subconjunto SweRVolfX creado en el primer laboratorio haciendo uso de la herramienta Vivado block.
+
+Se realizaron los siguientes pasos:
 
 1. Se deben instalar los programas VSCode (en este se hace la instalación de PlatformIO), cygwin (en este se hace la instalación de verilator) y GTKWave.
 2. Se obtiene del primer laboratorio el archivo BD.v en el cual se verifica que cada nombre de los modulos terminen en _0_0.
@@ -56,6 +60,7 @@ Se obtuvo de manera correcta las señales y los ciclos como lo mostraba la guía
 
 ![Alt text](image.png)
 
+- En windows, cuando se buscaba el archivo generado trace.vcd este no aparecía en ninguna carpeta. Fue necesario el uso de otro sistema operatico como lo es Linux para hacer la generación de este.
 - Durante el desarrollo del segundo laboratorio encontramos un error al momento de hacer la generación de bits para el RVfpgaSim, el cual se muestra en la siguiente imagen.
 
 ![Alt text](https://i.imgur.com/95wToyx.png)
@@ -70,6 +75,7 @@ Este error se pudo arreglar agregando las siguientes librerias al código en C++
 ### 🔖 Conclusiones
 - Al hacer un modulo es necesario hacer un etiquetado diciente de los terminales, en este laboratorio se podia intuir hacia donde iban o como era la conexión pertinente, haciendo facil este trabajo.
 - En el momento de crear el archivo vivado del diseño creado, Vivado arroja una alerta indicando que todos los terminales que no esten interconectados seran enviados a tierra "0".
+- Se realizaron las correctas simulaciones en el laboratorio 2, esto se puede inferir al momento de realizar la comparación de las señales obtenidas en gtwave con sus instrucciones.
 
 ### 🔖 Referencias
 - Curso de RISC-V [link](https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/)
