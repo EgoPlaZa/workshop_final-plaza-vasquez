@@ -34,6 +34,8 @@ En este segundo laboratorio se nos indicará como ejecutar programas eescritos e
 4. Se obtiene el archivo trace.vcd realizando la simulación en PlatformIO.
 5. Se muestran las señales en el GTKWave.
 
+En el siguiente link se encuentra el archivo trace.vcd generado. [trace.vcd](https://drive.google.com/file/d/1rNC20zOZOhfziusyGDlmFjSkUsuzrFOx/view)
+
 ### 🎯 Resultados
 
 Se obtuvieron las siguientes señales en GTKWave, las cuales se dividirán en 3 instrucciones aritmético-lógicas de las primeras y segundas iteraciones del bucle.
