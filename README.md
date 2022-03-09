@@ -27,10 +27,27 @@ Cómo se puede observar por el gráfico anterior se llegó hasta la última part
 ## 💻 Lab2
 
 
+### 🎯 Resultados
+
+Obtención de las señales en GTKWave:
+
+![Alt text](https://i.imgur.com/frx1Q0x.png)
+
 
 ### 🔖 Errores
 - Es importancia descargar las versiones que se indican en la guia de instalación, se obtuvieron problemas al momento de generar el bitstream puesto que se usó una versión posterior a la 2019.2.
 - El tener un buen procesador facilita y acelera el uso de las herramientas como vivado. Se tuvo que dejar durante varias horas encendido el computador para la generación del bitstream por los bajos recursos que presenta el procesador. 
+
+- Durante el desarrollo del segundo laboratorio encontramos un error al momento de hacer la generación de bits para el RVfpgaSim. S
+
+![Alt text](https://i.imgur.com/VwpLzZA.png)
+
+Este error se pudo arreglar agregando las siguientes ibrerias en la dirección donde se encontraba el archivo verilated.cpp en la carpeta de cygdrive.
+```
+#include <limits>
+#include <cstddef>
+#include <iostream>
+```
 
 ### 🔖 Conclusiones
 - Al hacer un modulo es necesario hacer un etiquetado diciente de los terminales, en este laboratorio se podia intuir hacia donde iban o como era la conexión pertinente, haciendo facil este trabajo.
