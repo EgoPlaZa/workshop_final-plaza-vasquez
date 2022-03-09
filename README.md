@@ -1,10 +1,10 @@
 # 💻 RVfpga SoC THE IMAGINATION UNIVERSITY PROGRAMME
 
-Se realizó el desarrollo de los laboratorios RVfpga de IMAGINATION. Se hará uso de los conocimientos adquiridos a lo largo del semestre, utlizando las herramientas verilog, verilator, gtkwave entre otros. Se realizarán los dos primeros laboratorios del curso de IMAGINATION.
+Se desarrollo los dos primeros laboratorios RVfpga de IMAGINATION. Se hizo uso de los conocimientos adquiridos a lo largo del semestre en la materia arquitectura para computadores de la UIS. Se hizo uso de las herramientas verilog, verilator, gtkwave entre otros. 
 
 ## 💻 Lab1
 
-En este primer laboratorio se nos enseña la construcción del subconjunto SweRVolfX de RISC-V en un chip (SoC) a partir de bloques de construcción.
+En este primer laboratorio se nos enseña la construcción del subconjunto SweRVolfX de RISC-V en un chip (SoC) a partir de bloques de construcción. Se realizaron los siguientes pasos:
 
 1. Se empieza con la instalación del programa Verilog, en el cual se desarrollara el laboratorio.
 2. Se crea el proyecto con la ayuda de la guía en el documento RVfpgaSoC.
@@ -16,7 +16,7 @@ En este primer laboratorio se nos enseña la construcción del subconjunto SweRV
 8. Por ultimo se configura la creación del bitstream para luego generarlo.
 
 
-En el siguiente link hay un PDF con todas las [conexiones entre modulos.](BlockDesign.pdf) (Para una mayor facilidad de lectura descargar el PDF)
+En el siguiente link se encuentra el PDF con todas las [conexiones entre modulos.](BlockDesign.pdf) (Para una mayor facilidad de lectura descargar el PDF)
 
 ### 🎯 Resultados
 
@@ -26,6 +26,13 @@ Cómo se puede observar por el gráfico anterior se llegó hasta la última part
 
 ## 💻 Lab2
 
+En este segundo laboratorio se nos indicará como ejecutar programas eescritos en el lenguaje C o en el lenguaje Assambly en el subconjunto SweRVolfX creado en el primer laboratorio haciendo uso de la herramienta Vivado block. Se realizaron los siguientes pasos:
+
+1. Se deben instalar los programas VSCode (en este se hace la instalación de PlatformIO), cygwin (en este se hace la instalación de verilator) y GTKWave.
+2. Se obtiene del primer laboratorio el archivo BD.v en el cual se verifica que cada nombre de los modulos terminen en _0_0.
+3. Se generan el binario para RVfpgaSim dentro de la terminal de cygwin.
+4. Se obtiene el archivo trace.vcd realizando la simulación en PlatformIO.
+5. Se muestran las señales en el GTKWave.
 
 ### 🎯 Resultados
 
