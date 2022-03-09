@@ -16,7 +16,7 @@ En este primer laboratorio se nos enseña la construcción del subconjunto SweRV
 8. Por ultimo se configura la creación del bitstream para luego generarlo.
 
 
-En el siguiente link hay un PDF con todas las [conexiones entre modulos.](BlockDesign.pdf)
+En el siguiente link hay un PDF con todas las [conexiones entre modulos.](BlockDesign.pdf) (Para una mayor facilidad de lectura descargar el PDF)
 
 ### 🎯 Resultados
 
