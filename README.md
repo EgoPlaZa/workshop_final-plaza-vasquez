@@ -1,6 +1,6 @@
 # 💻 RVfpga SoC THE IMAGINATION UNIVERSITY PROGRAMME
 
-Desarrollo de los laboratorios RVfpga de IMAGINATION. Se hará uso de los conocimientos adquiridos a lo largo del semestre, utlizando las herramientas verilog, verilator, gtkwave entre otros. Se realizarán los dos primeros laboratorios del curso de IMAGINATION.
+Se realizó el desarrollo de los laboratorios RVfpga de IMAGINATION. Se hará uso de los conocimientos adquiridos a lo largo del semestre, utlizando las herramientas verilog, verilator, gtkwave entre otros. Se realizarán los dos primeros laboratorios del curso de IMAGINATION.
 
 ## 💻 Lab1
 
@@ -35,14 +35,13 @@ Obtención de las señales en GTKWave:
 
 
 ### 🔖 Errores
-- Es importancia descargar las versiones que se indican en la guia de instalación, se obtuvieron problemas al momento de generar el bitstream puesto que se usó una versión posterior a la 2019.2.
+- Es importante descargar las versiones que se indican en la guia de instalación, se obtuvieron problemas al momento de generar el bitstream puesto que se usó una versión posterior a la 2019.2.
 - El tener un buen procesador facilita y acelera el uso de las herramientas como vivado. Se tuvo que dejar durante varias horas encendido el computador para la generación del bitstream por los bajos recursos que presenta el procesador. 
+- Durante el desarrollo del segundo laboratorio encontramos un error al momento de hacer la generación de bits para el RVfpgaSim, el cual se muestra en la siguiente imagen.
 
-- Durante el desarrollo del segundo laboratorio encontramos un error al momento de hacer la generación de bits para el RVfpgaSim. S
+![Alt text](https://i.imgur.com/95wToyx.png)
 
-![Alt text](https://i.imgur.com/VwpLzZA.png)
-
-Este error se pudo arreglar agregando las siguientes ibrerias en la dirección donde se encontraba el archivo verilated.cpp en la carpeta de cygdrive.
+Este error se pudo arreglar agregando las siguientes ibrerias al código en C++ verilated.cpp, este archivo se encuentra dentro de la carpeta dentro de la carpeta cywin64 en archivos de programa y siguiendo la ruta que se nos muestra junto al error.
 ```
 #include <limits>
 #include <cstddef>
