@@ -16,7 +16,7 @@ En este primer laboratorio se nos enseña la construcción del subconjunto SweRV
 8. Por ultimo se configura la creación del bitstream para luego generarlo.
 
 
-![Alt text](https://i.imgur.com/o1L9O9A.jpg)
+En el siguiente link hay un PDF con todas las [conexiones entre modulos.](BlockDesign.pdf)
 
 ### 🎯 Resultados
 
@@ -28,11 +28,13 @@ Cómo se puede observar por el gráfico anterior se llegó hasta la última part
 
 
 
+### 🔖 Errores
+- Es importancia descargar las versiones que se indican en la guia de instalación, se obtuvieron problemas al momento de generar el bitstream puesto que se usó una versión posterior a la 2019.2.
+- El tener un buen procesador facilita y acelera el uso de las herramientas como vivado. Se tuvo que dejar durante varias horas encendido el computador para la generación del bitstream por los bajos recursos que presenta el procesador. 
 
 ### 🔖 Conclusiones
-- En la creación del diagrama de bloques se agregan los modulos necesarios y estos tienen sus terminales bien marcados, donde se puede hacer las conexiones necesarias internamente, las otras se hacen con conexiones externas teniendo en cuenta que las que no fueron conectadas, vivado entiende que se conectaran a tierra "0". En las conexiones se diferencian los pines a los buses con una linea mas gruesa para los buses.
-- Es importancia descargar las versiones que se indican en la guia de instalación, se obtuvieron problemas al momento de generar el bitstream puesto que se usó una versión posterior a la 2019.2.
-- El tener un buen procesador facilita y acelera el uso de las herramientas como ivado. Se tuvo que dejar durante varias horas encendido el computador para la generación del bitstream por los bajos recursos que presenta el procesador. 
+- Al hacer un modulo es necesario hacer un etiquetado diciente de los terminales, en este laboratorio se podia intuir hacia donde iban o como era la conexión pertinente, haciendo facil este trabajo.
+- En el momento de crear el archivo vivado del diseño creado, Vivado arroja una alerta indicando que todos los terminales que no esten interconectados seran enviados a tierra "0".
 
 ### 🔖 Referencias
 - Curso de RISC-V [link](https://riscv.org/risc-v-learn-online/)
