@@ -76,6 +76,7 @@ Este error se pudo arreglar agregando las siguientes librerias al código en C++
 - Al hacer un modulo es necesario hacer un etiquetado diciente de los terminales, en este laboratorio se podia intuir hacia donde iban o como era la conexión pertinente, haciendo facil este trabajo.
 - En el momento de crear el archivo vivado del diseño creado, Vivado arroja una alerta indicando que todos los terminales que no esten interconectados seran enviados a tierra "0".
 - Se realizaron las correctas simulaciones en el laboratorio 2, esto se puede inferir al momento de realizar la comparación de las señales obtenidas en gtwave con sus instrucciones.
+- Al tener un pipelined de 9 etapas, el programa tarda en empezar a realizar todas las instrucciones estos 9 retardos, por esto primero el procesador se va preparando y pasando por cada etapa, para luego mostrar los resultados de cada instrucción, finalmente se repite el ciclo.
 
 ### 🔖 Referencias
 - Curso de RISC-V [link](https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/)
