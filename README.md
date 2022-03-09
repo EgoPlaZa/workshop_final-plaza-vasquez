@@ -72,7 +72,12 @@ Este error se pudo arreglar agregando las siguientes librerias al código en C++
 - En el momento de crear el archivo vivado del diseño creado, Vivado arroja una alerta indicando que todos los terminales que no esten interconectados seran enviados a tierra "0".
 
 ### 🔖 Referencias
-- Curso de RISC-V [link](https://riscv.org/risc-v-learn-online/)
+- Curso de RISC-V [link](https://university.imgtec.com/resources/download/rvfpgasoc-v1-0/)
+- Xilinx distribuidor de Vivado, programa usado en el laboratorio 1. [link](https://www.xilinx.com/)
+- Visual Studio Code, programa usado en el laboratorio 2. [link](https://code.visualstudio.com/)
+- Verilator, programa usado en el laboratorio 2. [link](https://verilator.org/guide/latest/index.html)
+- Cygwin, programa usado en el laboratorio 2 para windows. [link](https://www.cygwin.com/)
+- Gtkwave, programa usado en el laboratorio 2. [link](https://sourceforge.net/projects/gtkwave/)
 
 ### Autores
 Diego Julian Plaza Quintero - Est. Ingenieria electrónica - 2172310
